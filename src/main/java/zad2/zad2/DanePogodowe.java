@@ -1,6 +1,6 @@
 package zad2.zad2;
 
-public abstract class DanePogodowe implements Podmiot {
+public class DanePogodowe implements Podmiot {
 	private double temperatura;
 	private double wilgotnosc;
 	private double cisnienie;

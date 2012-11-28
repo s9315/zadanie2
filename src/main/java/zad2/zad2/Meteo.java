@@ -8,7 +8,7 @@ public class Meteo {
 
 	public static void main(String[] args){
 		DanePogodowe x = new DanePogodowe();
-		Wyswietlanie y = new Wyswietlanie(x); 
+		Wyswietlanie y = new Wyswietlanie(); 
 		
 		x.Odczyty(26, 58, 1060);
 		x.Odczyty(25.5, 44, 966);
