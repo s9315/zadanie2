@@ -6,9 +6,7 @@ public class Meteo {
 
 
 
-	private static final DanePogodowe  = null;
-
-	public static void main(String[] args)throws IOException{
+	public static void main(String[] args){
 		DanePogodowe x = new DanePogodowe();
 		Wyswietlanie y = new Wyswietlanie(x); 
 		
